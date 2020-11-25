@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/register.css">
+
+</head>
+
+<body>
+    <div id="main">
+        <a href="/">main</a>
+        <a href="register">register</a>
+        <a href="login">login</a>
+        <a href="admin">admin</a>
+    </div>
+    <h1>register page</h1>
+    <form action="/register" method="POST">
+        <label>Login: </label><input class="pr" type="text" name="log"><br>
+        <label>Password: </label><input class="pr" type="password" name="pass"><br>
+        <label>Wiek: </label><select class="w" name="wiek">
+            <option>10</option>
+            <option>11</option>
+            <option>12</option>
+            <option>13</option>
+            <option>14</option>
+            <option>15</option>
+            <option>16</option>
+            <option>17</option>
+            <option>18</option>
+            <option>19</option>
+            <option>20</option>
+        </select><br>
+        <label>Uczeń? </label><input class="ch" type="checkbox" name="uczen" value="checked"><br>
+        <label>Płeć: </label><label>mężczyzna</label><input class="ko" type="radio" name="plec"
+            value="m"><label>kobieta</label><input class="ko" type="radio" name="plec" value="k"><br>
+        <button id="przycisk" type="submit">Submit</button>
+    </form>
+
+</body>
+
+</html>

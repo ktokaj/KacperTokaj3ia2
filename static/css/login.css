@@ -1,0 +1,46 @@
+#main {
+    background-color: blue;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+a {
+    color: white;
+    font-size: 50pt;
+    margin-left: 30px;
+    font-family: OCR A Std, monospace;
+}
+
+h1 {
+    margin-top: 100px;
+    font-family: Apple Chancery, cursive;
+    font-size: 100pt;
+    text-align: center;
+    color: gray;
+}
+
+#przycisk {
+    height: 40px;
+    width: 200px;
+    font-size: 24pt;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 20px;
+}
+
+form {
+    margin-left: auto;
+    margin-right: auto;
+    width: 30em;
+}
+
+.pr {
+    height: 30px;
+    width: 150px;
+}
+
+label {
+    font-size: 30pt;   
+}
